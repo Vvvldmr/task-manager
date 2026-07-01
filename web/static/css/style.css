@@ -1,0 +1,27 @@
+/*
+    Пока это минимальные стили.
+
+    В следующих коммитах мы полностью переработаем внешний вид.
+*/
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 40px;
+
+    background: #f5f5f5;
+
+}
+
+header {
+
+    margin-bottom: 40px;
+
+}
+
+h1 {
+
+    color: #2c3e50;
+
+}

@@ -1,0 +1,43 @@
+{{define "base"}}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Task Manager</title>
+
+    <!--
+        Подключаем HTMX.
+
+        Благодаря HTMX в будущем мы сможем делать
+        "живой" интерфейс без написания большого
+        количества JavaScript.
+    -->
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Task Manager</h1>
+
+</header>
+
+<main>
+
+    {{template "content" .}}
+
+</main>
+
+</body>
+
+</html>
+
+{{end}}
